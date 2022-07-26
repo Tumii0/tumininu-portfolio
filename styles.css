@@ -19,6 +19,7 @@
     }    
   body{
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
   }
   .reveal{
     position: relative;
@@ -104,6 +105,7 @@
     background: var(--clr-secondary);
     padding: 60px ;
     display: flex;
+    width: 100vw;
    
     align-items: center;
     gap: 200px;
