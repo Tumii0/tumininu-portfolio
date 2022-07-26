@@ -279,6 +279,29 @@ footer h1{
     nav ul li a{
       font-size: 16px;
     }
+    .links {
+      height: 0;
+      overflow: hidden;
+      transition: var(--transition);
+  }
+  .show-links {
+      height: 100vh;
+  }
+  
+  .links a {
+      color: var(--clr-main);
+      font-size: 1rem;
+      text-align: center;
+      font-family: 'Roboto', sans-serif;
+      text-transform: capitalize;
+      letter-spacing: var(--spacing);
+      display: block;
+      padding: 1.5rem 1rem;
+      transition: var(--transition);
+      text-decoration: none;
+      font-weight: 500;
+  
+  }
   }
   
   @media (max-width: 858px){
